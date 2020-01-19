@@ -1,3 +1,7 @@
 link: https://www.youtube.com/watch?v=fBNz5xF-Kx4  
 
-(left at min 23 - path module)
+(left at min 1:04  - nodemon presentation)
++ make logger keep all logs in 1 file
++ see  CORS article below:
+
+https://dev.to/g33konaut/understanding-cors-aaf?utm_source=additional_box&utm_medium=internal&utm_campaign=regular&booster_org=
