@@ -68,5 +68,41 @@
                     there are custom modules (which we can create) which are files which have
                     an 'export' statement and can be used from other js files (imported)
 
+            
+        Nodemon:
 
+                Is a node module that watches our files for changes and restarts the server
+                each time we make one;
+
+                we can install it globally with the -g flag and run nodemon script instead of
+                node script
+
+                or
+
+                we can make an npm script inside the scripts object:
+
+                            "scripts": {
+                                "start": "node index",
+                                "dev": "nodemon index"
+                            }
+
+                next in order to start a script we run "npm run dev" or "npm run start" ("npm run" + script name)
+
+
+
+        How to deploy to heroku:
+
+            -we need to have the port defined as process.env.PORT and the start script in package.json
+
+            -in order to deploy:
+
+                log into heroku through the heroku CLI (heroku login)
+
+                add and commit all files
+ 
+                run "heroku create" (this deploys to heroku as a git repo)
+
+                #go to heroku URL/website and follow the instructions in the 'deploy' section
+
+                URL for current successful deploy: https://rocky-chamber-98949.herokuapp.com/
 */
